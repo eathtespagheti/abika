@@ -1,0 +1,62 @@
+.navbar a {
+  color: #244466;
+}
+.logo {
+  text-indent: -9999px;
+  width: 120px;
+  height: 70px;
+  background: url(../img/abika-logo.svg);
+  background-size: 100px 100px;
+  display: block;
+  background-repeat: no-repeat;
+}
+.homepage {
+  background: url(../img/01.png);
+  color: white;
+  text-align: center;
+  padding: 230px 0 230px 0;
+  border-radius: 0;
+  z-index: -1;
+  margin: 0;
+}
+.floating {
+  background: white;
+  color: #244466;
+  text-align: center;
+  padding: 25px;
+  padding-bottom: 30px;
+  margin: auto;
+  margin-top: -210px;
+}
+.under {
+  color: #244466;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  background: #f7ca69;
+}
+.yellow {
+  background: #f7ca69;
+  color: #244466;
+  margin: 0;
+  border-radius: 0;
+  z-index: -1;
+}
+.white {
+  background: white;
+  color: #244466;
+  margin: 0;
+  border-radius: 0;
+  margin-top: -1px;
+  z-index: 1;
+}
+.btn-blue {
+  background: #244466;
+  border-color: #244466;
+  font-size: bold;
+}
+.path-image {
+  width: 100%;
+  background: #f7ca69;
+  z-index: 2000;
+}
