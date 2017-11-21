@@ -1,3 +1,6 @@
+.navbar {
+  background: white;
+}
 .navbar a {
   color: #244466;
 }
@@ -11,7 +14,6 @@
   background-repeat: no-repeat;
 }
 .container-fluid {
-  background: white;
   color: #244466;
   margin-top: 150px;
 }
@@ -24,8 +26,8 @@
   margin: 0;
 }
 .floating {
-  background: white;
   color: #244466;
+  background: white;
   text-align: center;
   padding: 25px 50px 30px 50px;
   margin: auto;
@@ -52,18 +54,31 @@
 .path-image {
   width: 100%;
   background: #f7ca69;
-  margin-bottom: -10px;
+}
+.grey-path {
+  width: 100%;
+  position: relative;
+}
+.grey {
+  background: #95989a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  color: white;
 }
 .desktop-img {
-  width: 1200px;
-  margin-left: -200px;
-  margin-top: -300px;
-  margin-bottom: 200px;
+  width: 90%;
+  margin-left: 0%;
+  margin-top: -35%;
+  margin-bottom: 25%;
 }
 .hand-splash-img {
-  width: 600px;
-  margin-top: -200px;
-  margin-left: 100px;
+  width: 90%;
+  margin-top: -20%;
+  margin-left: 15%;
+  margin-bottom: -13%;
+  position: relative;
+  z-index: 0;
 }
 .web-section {
   float: right;
