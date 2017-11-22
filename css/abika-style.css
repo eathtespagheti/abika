@@ -16,6 +16,17 @@
   display: block;
   background-repeat: no-repeat;
 }
+.subscribe input[type=text]{
+  background: transparent;
+  border-color: #244466;
+  width: 70%;
+}
+.subscribe input[type=text]::placeholder {
+  color: #244466;
+}
+.subscribe a {
+  float: right;
+}
 .lang-icon {
   width: 25%;
   display: inline;
