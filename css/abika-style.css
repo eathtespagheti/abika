@@ -7,9 +7,6 @@
 .navbar a {
   color: #244466;
 }
-.bg-white2 {
-  background: #efefef;
-}
 .logo {
   text-indent: -9999px;
   width: 120px;
@@ -18,6 +15,9 @@
   background-size: 120px 50px;
   display: block;
   background-repeat: no-repeat;
+}
+.container {
+  color: #244466;
 }
 .container-fluid {
   color: #244466;
@@ -83,4 +83,10 @@
   margin-bottom: -13%;
   position: relative;
   z-index: 0;
+}
+.bg-white2 {
+  background: #efefef;
+}
+.border-warning {
+  border-width: thick !important;
 }
