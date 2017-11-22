@@ -1,3 +1,6 @@
+.body {
+  font-family: 'Roboto Condensed';
+}
 .navbar {
   background: white;
 }
@@ -18,45 +21,37 @@
 }
 .container-fluid {
   color: #244466;
-  margin-top: 150px;
 }
 .homepage {
   background: url(../img/01.png);
   background-size: 100% auto;
   color: white;
   text-align: center;
-  padding: 230px 0 230px 0;
+  padding: 14% 0 14% 0;
   z-index: -1;
-  margin: 0;
 }
 .middlepage {
   background-image: url(../img/02.png);
   background-size: 100% auto;
   color: white;
-  padding: 80px 0 80px 0;
+  padding: 7% 0 7% 0;
   z-index: -1;
-  margin: 0;
 }
 .floating {
   color: #244466;
   background: white;
   text-align: center;
-  padding: 25px 50px 30px 50px;
-  margin: auto;
-  margin-top: -160px;
+  padding: 1.5% 3% 2% 3%;
+  margin-top: -8%;
 }
 .under {
   color: #244466;
-  padding: 20px;
-  margin: auto;
-  margin-top: 20px;
   background: #f7ca69;
 }
 .yellow {
   background: #f7ca69;
   color: #244466;
   z-index: -1;
-  margin: 0;
 }
 .btn-blue {
   background: #244466;
@@ -73,27 +68,19 @@
 }
 .grey {
   background: #95989a;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 0;
   color: white;
 }
 .desktop-img {
-  width: 90%;
-  margin-left: 0%;
+  width: 70%;
   margin-top: -35%;
 }
 .mobile-section {
   padding-top: 7%;
 }
 .hand-splash-img {
-  width: 90%;
-  margin-top: -20%;
-  margin-left: 15%;
+  width: 70%;
+  margin-top: -9%;
   margin-bottom: -13%;
   position: relative;
   z-index: 0;
-}
-.web-section {
-  float: right;
 }
