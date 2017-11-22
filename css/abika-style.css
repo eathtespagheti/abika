@@ -16,6 +16,10 @@
   display: block;
   background-repeat: no-repeat;
 }
+.lang-icon {
+  width: 25%;
+  display: inline;
+}
 .container {
   color: #244466;
 }
