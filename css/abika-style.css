@@ -84,6 +84,7 @@
 .grey {
   background: #95989a;
   color: white;
+  position: relative;
 }
 .desktop-img {
   width: 70%;
@@ -104,4 +105,28 @@
 }
 .border-warning {
   border-width: thick !important;
+}
+/* Responsive Text for Bootstrap 4 */
+html {
+  font-size: 14px;
+}
+@media (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 32px;
+  }
 }
