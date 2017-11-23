@@ -117,6 +117,10 @@
 .border-warning {
   border-width: thick !important;
 }
+.address-bar h6{
+  font-size: .8em;
+  line-height: 2em;
+}
 /* Responsive for Laptop, Tablet and Desktop */
 html {
   font-size: 12px;
