@@ -121,6 +121,17 @@
   font-size: .8em;
   line-height: 2em;
 }
+.icon-world {
+  top:-50%;
+  transform:translateY(50%);
+  position: relative;
+  z-index: 1;
+}
+.preventivi {
+  top:50%;
+  transform:translateY(-8%);
+  position: relative;
+}
 /* Responsive for Laptop, Tablet and Desktop */
 html {
   font-size: 12px;
