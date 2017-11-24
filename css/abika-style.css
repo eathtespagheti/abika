@@ -1,6 +1,13 @@
 .body {
   font-family: 'Roboto Condensed';
 }
+.btn {
+  font-size: .9em;
+}
+.btn:hover {
+  background-color: #2f5c8c;
+  border-color: #2f5c8c;
+}
 .navbar {
   background: white;
 }
