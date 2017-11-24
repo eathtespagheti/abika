@@ -138,7 +138,7 @@ html {
 }
 @media screen and (min-width: 576px) {
   html {
-    font-size: .8em;
+    font-size: 1em !important;
   }
   .homepage {
     background-size: 100% auto;
@@ -159,15 +159,28 @@ html {
     margin-bottom: 0;
   }
   .hand-splash-img {
-    top: -12%;
+    width: 100%;
+    top: 10%;
     margin-bottom: -24%;
   }
   .mobile-section {
-    padding-top: 3% !important;
-    font-size: 10px !important;
+    padding-top: -5%;
   }
   .web-section {
-    margin-top: -8%;
+    margin-top: -15%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hand-splash-img {
+    width: 90%;
+    top: -13%;
+    margin-bottom: -24%;
+  }
+  .mobile-section {
+    padding-top: 3%;
+  }
+  .web-section {
+    margin-top: -7%;
   }
 }
 @media screen and (min-width: 1400px) {
