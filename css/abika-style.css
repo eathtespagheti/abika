@@ -1,3 +1,27 @@
+/* Parallax */
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  margin-left: -1vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+  position: relative;
+  z-index: -2;
+}
+/* --------------------------------------- */
 .body {
   font-family: 'Roboto Condensed';
 }
@@ -47,6 +71,7 @@
   color: #244466;
 }
 .infobar {
+  height: 5.5vh;
   background: #244466;
   color: white;
 }
@@ -58,17 +83,24 @@
   background-size: auto 100%;
   background-repeat: no-repeat;
   color: white;
+  top: -11%;
   text-align: center;
   padding: 10% 0 14% 0;
-  z-index: -1;
 }
 .middlepage {
   background-image: url(../img/02.png);
   background-size: auto 100%;
   background-repeat: no-repeat;
-  color: white;
-  padding: 7% 0 7% 0;
+  height: 60vh;
+  margin-top: -15vh;
+  margin-bottom: -15vh;
   z-index: -1;
+}
+.middlepage-text {
+  position: relative;
+  transform: translateY(-100%);
+  color: white;
+  padding: 7% 10 7% 0;
 }
 .floating {
   color: #244466;
@@ -94,6 +126,8 @@
 .path-image {
   width: 100%;
   background: #f7ca69;
+  position: relative;
+  z-index: 1;
 }
 .grey-path {
   width: 100%;
@@ -108,6 +142,8 @@
   width: 70%;
   margin-top: -12em;
   margin-bottom: -5%;
+  position: relative;
+  z-index: 2;
 }
 .hand-splash-img {
   width: 90%;
@@ -132,7 +168,6 @@
   z-index: 1;
 }
 .preventivi {
-  top:50%;
   transform:translateY(-8%);
   position: relative;
 }
