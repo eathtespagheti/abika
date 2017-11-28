@@ -42,6 +42,13 @@
 .navbar a {
   color: #244466;
 }
+.down-button {
+  display: none;
+  color: #244466;
+}
+.down-button:hover {
+  color: #2f5c8c;
+}
 .logo {
   text-indent: -9999px;
   width: 120px;
@@ -350,6 +357,10 @@ html {
 @media screen and (min-width: 1400px) {
   html {
     font-size: 1em !important;
+  }
+  .down-button {
+    display: block;
+    transform: translateY(-200%);
   }
   .desktop-img {
     margin-top: -35%;
