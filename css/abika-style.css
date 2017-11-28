@@ -23,7 +23,7 @@
 }
 /* --------------------------------------- */
 .body {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto', sans-serif;
 }
 .btn {
   font-size: .9em;
@@ -71,7 +71,6 @@
   color: #244466;
 }
 .infobar {
-  height: 5.5vh;
   background: #244466;
   color: white;
 }
@@ -106,12 +105,16 @@
   color: #244466;
   background: white;
   text-align: center;
-  padding: 1.5% 3% 2% 3%;
-  margin-top: -8%;
+  transform: translateY(-50%);
+}
+.mobile-section {
+  top: 50%;
+  -moz-transform: translateY(30%);
 }
 .under {
   color: #244466;
   background: #f7ca69;
+  margin-top: -8%;
 }
 .yellow {
   background: #f7ca69;
@@ -167,6 +170,7 @@
 .icon-world {
   top:-50%;
   transform:translateY(50%);
+  width: 10em;
   position: relative;
   z-index: 1;
 }
