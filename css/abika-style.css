@@ -27,6 +27,7 @@
 }
 .body {
   font-family: 'Roboto', sans-serif;
+  transition: all;
 }
 .btn {
   font-size: .9em;
@@ -365,7 +366,7 @@ html {
     margin-top: -3%;
   }
   .preventivi-bg {
-    margin-bottom: 14%;
+    margin-bottom: 10%;
   }
 }
 @media screen and (min-width: 2000px) {
