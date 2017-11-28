@@ -162,7 +162,6 @@
   line-height: 2em;
 }
 .address-bar-main {
-  margin-top: -1.5em;
 }
 .icon-world {
   top:-50%;
@@ -204,7 +203,7 @@ html {
 }
 @media screen and (min-width: 375px) {
   .floating {
-    transform: translateY(-35%);
+    transform: translateY(-40%);
   }
   .under {
     margin-top: -20%;
@@ -236,6 +235,9 @@ html {
   .homepage {
     height: 82vh;
   }
+  .yellow {
+    margin-top: -10%;
+  }
   .floating {
     transform: translateY(-50%);
   }
@@ -258,7 +260,7 @@ html {
     margin-top: -15%;
   }
   .under {
-    margin-top: -8%;
+    margin-top: -6%;
   }
   .middlepage {
     height: 60vh;
@@ -267,12 +269,15 @@ html {
   }
   .middlepage-text {
     padding: 7% 10 7% 0;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   .preventivi {
     margin-top: 0;
     margin-bottom: 0;
     transform: translateY(-10%);
+  }
+  .preventivi-bg {
+    margin-bottom: 10%;
   }
 }
 /* iPad */
@@ -284,10 +289,10 @@ html {
   }
   .hand-splash-img {
     width: 100%;
-    top: 14%;
+    top: 15%;
   }
   .under {
-    margin-top: -20%;
+    margin-top: -15%;
   }
   .middlepage {
     background-size: auto 100%;
@@ -319,10 +324,10 @@ html {
     top: -20%;
   }
   .under {
-    margin-top: -12%;
+    margin-top: -10%;
   }
   .yellow {
-    margin-top: -20%;
+    margin-top: -24%;
   }
   .hand-splash-img {
     width: 100%;
@@ -337,6 +342,9 @@ html {
   .middlepage-text {
     transform: translateY(-50%);
   }
+  .preventivi-bg {
+    margin-bottom: 24%;
+  }
 }
 @media screen and (min-width: 1400px) {
   html {
@@ -345,9 +353,6 @@ html {
   .desktop-img {
     margin-top: -35%;
     margin-bottom: 0;
-  }
-  .middlepage-text {
-    transform: translateY(-100%);
   }
   .hand-splash-img {
     top: -16%;
@@ -358,6 +363,9 @@ html {
   }
   .web-section {
     margin-top: -3%;
+  }
+  .preventivi-bg {
+    margin-bottom: 14%;
   }
 }
 @media screen and (min-width: 2000px) {
