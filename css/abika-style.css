@@ -27,7 +27,6 @@
 }
 .body {
   font-family: 'Roboto', sans-serif;
-  transition: all;
 }
 .btn {
   font-size: .9em;
@@ -48,6 +47,7 @@
 }
 .down-button:hover {
   color: #2f5c8c;
+  transition: ease-in-out .5s;
 }
 .logo {
   text-indent: -9999px;
@@ -240,6 +240,10 @@ html {
   html {
     font-size: .8em !important;
   }
+  .down-button {
+    display: block;
+    transform: translateY(-200%);
+  }
   .homepage {
     height: 82vh;
   }
@@ -357,10 +361,6 @@ html {
 @media screen and (min-width: 1400px) {
   html {
     font-size: 1em !important;
-  }
-  .down-button {
-    display: block;
-    transform: translateY(-200%);
   }
   .desktop-img {
     margin-top: -35%;
