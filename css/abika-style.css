@@ -25,7 +25,7 @@
 .font-weight-bold {
   font-size: 2em;
 }
-.body {
+body {
   font-family: 'Roboto', sans-serif;
 }
 .btn {
@@ -43,10 +43,14 @@
 }
 .down-button {
   display: none;
-  color: #244466;
+  color: white;
+  opacity: .6;
+  transition: ease-in-out .5s;
+  scroll-behavior: smooth;
 }
 .down-button:hover {
-  color: #2f5c8c;
+  color: white;
+  opacity: 1;
   transition: ease-in-out .5s;
 }
 .logo {
